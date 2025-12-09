@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account</title>
+  <link rel="stylesheet" href="registration.css" />
+</head>
+<body>
+
+  <div class="signup-wrapper">
+    <h1 class="signup-title">Create Account</h1>
+
+    <div class="tab-buttons">
+      <button class="tab-button" data-target="vendor-form">Vendor</button>
+      <button class="tab-button active" data-target="individual-form">Individual</button>
+      <button class="tab-button" data-target="business-form">Business</button>
+    </div>
+
+    <!-- Individual Form -->
+    <form id="individual-form" class="active">
+      <div class="form-group">
+        <label class="form-label">Full Name:</label>
+        <input class="form-input" type="text" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Email:</label>
+        <input class="form-input" type="email" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Address:</label>
+        <input class="form-input" type="text" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Password:</label>
+        <input class="form-input" type="password" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Confirm Password:</label>
+        <input class="form-input" type="password" required />
+      </div>
+
+      <p class="login-link">Already have an account? <a href="#">Click here</a></p>
+      <button class="submit-btn">Create Account</button>
+    </form>
+
+    <!-- Vendor Form -->
+    <form id="vendor-form">
+      <div class="form-group">
+        <label class="form-label">Full Name:</label>
+        <input class="form-input" type="text" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Company Name:</label>
+        <input class="form-input" type="text" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Email:</label>
+        <input class="form-input" type="email" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Password:</label>
+        <input class="form-input" type="password" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Confirm Password:</label>
+        <input class="form-input" type="password" required />
+      </div>
+
+      <p class="login-link">Already have an account? <a href="#">Click here</a></p>
+      <button class="submit-btn">Create Account</button>
+    </form>
+
+    <!-- Business Form -->
+    <form id="business-form">
+      <div class="form-group">
+        <label class="form-label">Company Name:</label>
+        <input class="form-input" type="text" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Email:</label>
+        <input class="form-input" type="email" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Address:</label>
+        <input class="form-input" type="text" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Password:</label>
+        <input class="form-input" type="password" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Confirm Password:</label>
+        <input class="form-input" type="password" required />
+      </div>
+
+      <p class="login-link">Already have an account? <a href="login.html">Click here</a></p>
+      <button class="submit-btn">Create Account</button>
+    </form>
+
+  </div>
+
+  <script src="signup.js"></script>
+</body>
+</html>
