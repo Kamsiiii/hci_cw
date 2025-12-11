@@ -94,7 +94,20 @@ document.querySelector(".checkout-btn").addEventListener("click", function() {
     cart.forEach(item => {
         itemCount += item.quantity;
         totalPrice += parseFloat(item.price.replace("£", "")) * item.quantity;
-    }
+    });
+
+    // save order details for the post-order page
+    localStorage.setItem("OrderID", OrderID);
+    localStorage.setItem("ItemCount", itemCount);
+    localStorage.setItem("TotalPrice", totalPrice.toFixed(2));
+
+    // Clear the cart
+    localStorage.removeItem("cart");
+
+    // Redirect to PostOrder page
+    window.location.href = "PostOrder.html";
+});
+
 
 
 
