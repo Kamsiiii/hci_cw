@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburger Menu</title>
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-bar">
+          <li class="logo"><a href="home.html">BILLINGSGATE</a></li>
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <img
+          class="hero-img"
+          src="image/5045_01.jpg"
+          alt="Billingsgate Fish Market"
+        />
+        <div class="hero-content">
+          <p>Est. 1699</p>
+          <h1>London's Historic Fish Market</h1>
+          <p>Bringing fresh seafood from the Thames to your door</p>
+        </div>
+      </div>
+
+      <section class="home-search">
+        <div class="search-wrapper">
+          <i class="fas fa-search search-icon"></i>
+          <input
+            type="text"
+            placeholder="Search salmon, lobster, oysters..."
+            aria-label="Search"
+          />
+        </div>
+      </section>
+
+      <section class="info-cards">
+        <div class="info-card">
+          <div class="icon"><i class="fa-regular fa-clock"></i></div>
+          <p class="label">MARKET HOURS</p>
+          <h3>5:00am - 3:00pm</h3>
+          <p class="sub">Mon - Sat</p>
+        </div>
+
+        <div class="info-card">
+          <div class="icon"><i class="fa-regular fa-map"></i></i></div>
+          <p class="label">LOCATION</p>
+          <h3>Trafalgar Way</h3>
+          <p class="sub">Poplar, London</p>
+        </div>
+      </section>
+
+      <section class="fresh-catch-header">
+        <h2>Marketplace</h2>
+        <a href="marketplace.html" class="view-all">View All →</a>
+      </section>
+
+      <section class="browse-category">
+        <h2 class="category-title">Browse by Category</h2>
+      <div class="categories">
+        <button>Fresh today</button>
+        <button>Shellfish</button>
+        <button>Smoked</button>
+        <button>Grilled</button>
+        <button>Premium</button>
+        <button>Deals</button>
+      </div>
+      </section>
+        
+      <section class="product-grid">
+        <div class="product-card">
+          <div class="tag fresh">Fresh Today</div>
+          <img src="https://i.imgur.com/SvR4otG.jpeg" />
+          <h3>Atlantic Salmon</h3>
+          <p class="vendor">Thames Fisheries</p>
+          <p class="price">£18.50 <span>per kg</span></p>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <div class="tag premium">Premium</div>
+          <img src="https://i.imgur.com/I0vZz8M.jpeg" />
+          <h3>Dover Sole</h3>
+          <p class="vendor">Smith & Sons</p>
+          <p class="price">£32.00 <span>per kg</span></p>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <div class="tag fresh">Fresh Today</div>
+          <img src="https://i.imgur.com/SvR4otG.jpeg" />
+          <h3>Atlantic Salmon</h3>
+          <p class="vendor">Thames Fisheries</p>
+          <p class="price">£18.50 <span>per kg</span></p>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <div class="tag fresh">Fresh Today</div>
+          <img src="https://i.imgur.com/SvR4otG.jpeg" />
+          <h3>Atlantic Salmon</h3>
+          <p class="vendor">Thames Fisheries</p>
+          <p class="price">£18.50 <span>per kg</span></p>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+      </section>
+
+      <section class="about-section">
+    <h2>About Billingsgate</h2>
+
+    <div class="about-image-wrapper">
+        <img src="image/p01hgqb7.jpg" alt="Billingsgate Market">
+        <span class="image-label">Over 300 Years of Tradition</span>
+    </div>
+
+    <p>
+        Long before the city of London fully awakens, a vibrant and historic
+        tradition comes to life. The Billingsgate Fish Market is the UK's
+        largest inland fish market and a true institution of London's culinary
+        scene, serving the finest restaurants since 1699.
+    </p>
+
+    <button class="about-btn">Learn Our History</button>
+</section>
+
+      
+    </main>
+  </body>
+</html>
