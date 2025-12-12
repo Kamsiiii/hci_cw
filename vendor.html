@@ -17,20 +17,39 @@
       rel="stylesheet"
     />
 </head>
+
 <body>
     <header>
-        <h1>Billingsgate Vendors</h1>
+      <nav>
+        <ul class="nav-bar">
+          <li class="logo"><a href="home.html">BILLINGSGATE</a></li>
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li class="active"><a href="vendor.html">Vendor</a></li>
+            <li><a href="signup.html">Account</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
 
-        <!-- <div class="search-bar">
-            <input type="text" placeholder="Search vendors...">
-            <button type="submit">Search</button>
-        </div> -->
+      <h1>Billingsgate Vendors</h1>
+
     </header>
+
 
     <a href="javascript:history.back()" class="back-btn"><i class="fa-solid fa-arrow-left"></i></a>
 <a href="basket.html" class="basket-btn"><i class="fa-solid fa-basket-shopping"></i></a>
 
-     <section class="search-section">
+     <div class="all-vendor">
+        <section class="search-section">
         <input type="text" placeholder="Search vendors..." />
         <button class="search-btn">Search</button>
       </section>
@@ -109,21 +128,8 @@
         </div>
         
     </div>
+     </div>
     
-    
-    
-    
-    <!-- <main>
-        <section>
-            <h2>Our Vendors</h2>
-            <ul>
-                <li>Vendor 1: Quality Products</li>
-                <li>Vendor 2: Reliable Services</li>
-                <li>Vendor 3: Affordable Prices</li>
-            </ul>
-        </section>
-    </main> -->
-
 
     <footer>
         <p>&copy; 2025 Billingsgate fish market. All rights reserved.</p>
