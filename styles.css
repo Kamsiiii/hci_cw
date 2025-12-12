@@ -113,13 +113,13 @@ header h1{
 
 .search-section {
   display: flex;
-  justify-content: flex-end;   /* pushes everything to the right */
+  justify-content: flex-end;   
   margin: 22px 0;
   gap: 8px;
 }
 
 .search-section input {
-  width: 250px;                 /* shorter input */
+  width: 250px;                
   padding: 10px 16px;
   border-radius: 999px;
   border: 1px solid #d1d5db;
