@@ -465,6 +465,59 @@ body {
   box-shadow: 0 10px 22px rgba(249, 115, 22, 0.3);
 }
 
+.container {
+    width: 100%;               /* fill the home-vendor width */
+    margin: 30px 0;            /* vertical spacing only */
+    background: white;
+    padding: 30px;
+    border-radius: 16px;       /* matches your card style */
+    box-shadow: 0 12px 30px rgba(0,0,0,0.07);
+}
+
+.container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 36px rgba(0,0,0,0.12);
+    transition: transform 0.2s ease, box-shadow 0.25s ease;
+}
+
+/* Vendor Header */
+.vendor-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.vendor-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Section Titles */
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border-left: 5px solid #f96334;
+    padding-left: 10px;
+}
+
+/* Info Box */
+.info-box {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.home-vendor{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* ===========================
    ABOUT SECTION — CONTAINER
    =========================== */
